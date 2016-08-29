@@ -58,12 +58,25 @@ public class FtcOpModeRegister implements OpModeRegister {
     manager.register("NullOp", NullOp.class);
 
     //manager.register("MatrixK9TeleOp", MatrixK9TeleOp.class);
-    manager.register("K9TeleOp", K9TeleOp.class);
-    manager.register("K9Line", K9Line.class);
-    manager.register ("PushBotAuto", PushBotAuto.class);
-    manager.register ("PushBotManual", PushBotManual.class);
+    //manager.register("K9TeleOp", K9TeleOp.class);
+    //manager.register("K9Line", K9Line.class);
 
-
+    manager.register ("Red_farMount", Red_farMount_0.class);
+    manager.register ("Red_nearMount", Red_nearMount_0.class);
+    manager.register ("Blue_farMount", Blue_farMount_0.class);
+    manager.register ("Blue_nearMount", Blue_nearMount_0.class);
+    manager.register ("tank_teleOp", tank_teleOp.class);
+    manager.register ("RedFarPositionNearMountain", RedFarPositionNearMountain.class);
+    manager.register ("parkZone_auto_Blue", parkZone_auto_Blue.class);
+    manager.register ("parkZone_auto_Red", parkZone_auto_Red.class);
+    manager.register ("BlueFarPositionNearMountain", BlueFarPositionNearMountain.class);
+    manager.register ("red_diagonalBeacon", Red_diagonalBeacon.class);
+    manager.register ("blue_diagonalBeacon", Blue_diagonalBeacon.class);
+    manager.register ("Greg was here", gregwashere.class);
+    manager.register ("Evan_teleOp", Evan_teleOp.class);
+    manager.register ("Sam_Normal", sam_inch.class);
+    manager.register ("Sam_Speed", Sam_Speed_Drive.class);
+    manager.register ("Gyro_test", Gyro_test.class);
 
     /*
      * Uncomment any of the following lines if you want to register an op mode.
