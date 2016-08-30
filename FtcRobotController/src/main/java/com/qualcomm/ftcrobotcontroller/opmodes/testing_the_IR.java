@@ -73,14 +73,17 @@ public class testing_the_IR extends OpMode
         }
         if (angle < 0)
         {
-            DriveRight.setPower(0.5);
-            DriveLeft.setPower(-0.5);
+            double lfasterwheel = ((angle*-1)/120*50) + 50;
+            DriveRight.setPower(lfasterwheel);
+            DriveLeft.setPower(0.25);
         }
         else if (angle > 0)
         {
-            DriveRight.setPower(-0.5);
-            DriveLeft.setPower(0.5);
+            double rfasterwheel = ((angle/120*50) + 50);
+            DriveRight.setPower(0.25);
+            DriveLeft.setPower(rfasterwheel);
         }
+//HELLO, THIS IS MADDIE
         telemetry.addData("angle", angle);
         telemetry.addData("strength", strength);
     }

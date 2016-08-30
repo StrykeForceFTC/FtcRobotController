@@ -61,6 +61,8 @@ public class FtcOpModeRegister implements OpModeRegister {
     //manager.register("K9TeleOp", K9TeleOp.class);
     //manager.register("K9Line", K9Line.class);
 
+    manager.register ("PushBotAuto", PushBotAuto.class);
+    manager.register ("PushBotManual", PushBotManual.class);
     manager.register ("Red_farMount", Red_farMount_0.class);
     manager.register ("Red_nearMount", Red_nearMount_0.class);
     manager.register ("Blue_farMount", Blue_farMount_0.class);
@@ -77,7 +79,9 @@ public class FtcOpModeRegister implements OpModeRegister {
     manager.register ("Sam_Normal", sam_inch.class);
     manager.register ("Sam_Speed", Sam_Speed_Drive.class);
     manager.register ("Gyro_test", Gyro_test.class);
-
+    manager.register ("testing_the_IR", testing_the_IR.class);
+    manager.register ("Evan_Controller", Evan_Controller.class);
+	 
     /*
      * Uncomment any of the following lines if you want to register an op mode.
      */
