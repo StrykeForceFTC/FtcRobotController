@@ -75,7 +75,6 @@ public class FtcOpModeRegister implements OpModeRegister {
     manager.register ("red_diagonalBeacon", Red_diagonalBeacon.class);
     manager.register ("blue_diagonalBeacon", Blue_diagonalBeacon.class);
     manager.register ("Greg was here", gregwashere.class);
-    manager.register ("Evan_teleOp", Evan_teleOp.class);
     manager.register ("Sam_Normal", sam_inch.class);
     manager.register ("Sam_Speed", Sam_Speed_Drive.class);
     manager.register ("Gyro_test", Gyro_test.class);
