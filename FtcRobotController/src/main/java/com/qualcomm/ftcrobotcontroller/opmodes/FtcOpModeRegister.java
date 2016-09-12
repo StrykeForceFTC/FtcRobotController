@@ -80,8 +80,7 @@ public class FtcOpModeRegister implements OpModeRegister {
     manager.register ("Sam_Speed", Sam_Speed_Drive.class);
     manager.register ("Gyro_test", Gyro_test.class);
     manager.register ("testing_the_IR", testing_the_IR.class);
-    manager.register ("Evan_Controller", Evan_teleOp.class);
-	 
+
     /*
      * Uncomment any of the following lines if you want to register an op mode.
      */
